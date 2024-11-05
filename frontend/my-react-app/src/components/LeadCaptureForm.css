@@ -1,0 +1,76 @@
+/* src/components/LeadCaptureForm.css */
+
+.lead-capture-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .lead-capture-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .lead-capture-form input {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .lead-capture-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #937AFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lead-capture-form button:hover {
+    background-color: #6655ad;
+  }
+  
+  .lead-capture-form p {
+    text-align: center;
+  }
+
+  .enriched-data-card, .lookalike-company-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.lookalike-company-card {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e9f7ff;
+}
+
+.enriched-data-card h3, .lookalike-company-card h4 {
+    margin-bottom: 12px;
+}
+
+.enriched-data-card p, .lookalike-company-card p {
+    margin: 4px 0;
+}
+
+/* LeadCaptureForm.css */
+.enriched-data-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* or space-between */
+  margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+/* EnrichedDataCard.css */
+.enriched-data-card {
+    
+    color: whitesmoke; 
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    box-shadow: 6px 6px 6px rgba(7, 7, 7, 0.1);
+    /* Gradient background */
+    background: #937aff;
+    text-align: left; /* Align text to the left */
+}
+
+.enriched-data-card h4 {
+    margin: 0; /* Remove default margin for h4 */
+    font-size: 1.2rem; /* Optional: Adjust font size for the title */
+}
+
+.enriched-data-card p {
+    margin: 4px 0; /* Adjust margin for paragraphs */
+}
